@@ -66,4 +66,6 @@ print("\n ---------------------------\n Dimensions of the data:\n---------------
 
 df_cleaned.to_csv("D:\mahsa\LEARNING\PRACTICE\heart_disease_cleaned.csv")
 sns.boxplot(x=df['painexer'])
+sns.boxplot(x=df['painexer'])
+
 plt.show()
